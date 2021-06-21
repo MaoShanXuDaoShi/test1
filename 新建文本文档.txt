@@ -1,0 +1,13 @@
+mybatis流程
+1.Resources获取加载全局配置文件
+2.实例化SqlSessionFactoryBuilder构造器
+3.解析配置文件XMLConfigBuilder
+4.Configuration所有的配置信息
+5.SqlSessionFactory实例化
+6.transactional事务管理
+7.创建executor执行器
+8.创建sqlSession
+9.实现CRUD
+10.判断
+11.提交事务成功
+12，关闭
